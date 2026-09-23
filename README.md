@@ -10,6 +10,8 @@ An offline-first Flutter app for tracking spending, budgets and monthly insights
 [![Riverpod](https://img.shields.io/badge/Riverpod-2.6-0E7C66?style=for-the-badge)](https://riverpod.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2563EB?style=for-the-badge)](LICENSE)
 
+<img src="screenshots/demo.gif" alt="Mizan walkthrough" width="330" />
+
 </div>
 
 ---
@@ -179,6 +181,12 @@ The suite covers:
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0E7C66?style=flat-square&logo=googlechrome&logoColor=white)](https://mostafa-portfolio.pages.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mostafa-sholkamy-234238390)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mostafasholkamy50@gmail.com)
+
+---
+
+## Related projects
+
+- **[Cloudflare Portfolio](https://github.com/MShulkamy/cloudflare-portfolio)** — a full-stack portfolio site with an admin dashboard on Cloudflare Pages, Functions and D1. [Live demo](https://cloudflare-portfolio-d49.pages.dev).
 
 ---
 
