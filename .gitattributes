@@ -1,18 +1,3 @@
-# Normalise line endings so Windows and CI produce identical files.
-* text=auto eol=lf
-
-# Binary assets must never be touched.
-*.png  binary
-*.jpg  binary
-*.jpeg binary
-*.gif  binary
-*.webp binary
-*.ico  binary
-*.ttf  binary
-*.otf  binary
-*.woff binary
-*.woff2 binary
-
-# Keep these as-is.
-*.bat  text eol=crlf
-*.cmd  text eol=crlf
+# Vendored web runtime — ship it, but keep it out of GitHub's language stats
+web/sqflite_sw.js linguist-vendored
+web/sqlite3.wasm   linguist-vendored
