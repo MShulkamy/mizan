@@ -10,6 +10,7 @@ An offline-first Flutter app for tracking spending, budgets and monthly insights
 [![Riverpod](https://img.shields.io/badge/Riverpod-2.6-0E7C66?style=for-the-badge)](https://riverpod.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2563EB?style=for-the-badge)](LICENSE)
 [![CI](https://github.com/MShulkamy/mizan/actions/workflows/ci.yml/badge.svg)](https://github.com/MShulkamy/mizan/actions/workflows/ci.yml)
+[![Live demo](https://img.shields.io/badge/Live_demo-mizan--demo.pages.dev-2563EB?style=for-the-badge)](https://mizan-demo.pages.dev)
 
 <img src="screenshots/demo.gif" alt="Mizan walkthrough" width="330" />
 
