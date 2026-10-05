@@ -1,6 +1,8 @@
 import 'package:path/path.dart' as p;
 import 'package:sqflite/sqflite.dart';
 
+import 'db_factory_native.dart' if (dart.library.js_interop) 'db_factory_web.dart';
+
 /// Owns the SQLite connection and schema for Mizan.
 ///
 /// The database is created lazily on first launch and seeded with a starter
@@ -16,7 +18,8 @@ class AppDatabase {
 
   static Future<Database> instance() async {
     if (_db != null) return _db!;
-    final path = p.join(await getDatabasesPath(), _fileName);
+    configureDatabaseFactory();
+    final path = await resolveDatabasePath(_fileName);
     _db = await openDatabase(
       path,
       version: _version,
